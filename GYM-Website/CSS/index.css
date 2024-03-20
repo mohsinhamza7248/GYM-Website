@@ -1,0 +1,43 @@
+
+body{
+    background-color: #eaf6f6; 
+    font-family: 'Roboto', cursive;
+ }
+ h1{
+   color: #66bfbf;
+ }
+ h3{
+  color: #66bfbf;
+ }
+ /* hr{
+     border-style: none;
+     border-top-style: dotted;
+     border-color: grey;
+     border-width: 5px;
+     width: 5%;
+ 
+ } */
+ .contact:hover{
+     color:white;
+ }
+ .enroll{
+    padding: 0px 0px;
+     margin: 0px 70px;    
+     color: grey;
+     /* text-align: center; */
+     display: flex;
+     justify-content: right;
+}
+.enroll:hover{
+    color:white;
+}
+.about{
+    margin: 20px 30px;
+    padding: 0px 14px;
+}
+.about:hover{
+    color: white;
+}
+.services a:hover{
+color: white;
+}

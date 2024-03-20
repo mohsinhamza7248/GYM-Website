@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll-Now</title>
+</head>
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+/*CSS reset*/
+body{
+    font-family: 'Roboto' , cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('image/gym5.jpg');
+    background-repeat: repeat-y;
+}
+.left{
+    display: inline-block;
+ /* border: 2px solid gray; */
+ position: absolute;
+ left: 60px;
+ top: 20px;
+}
+.mid{
+/* display:inline-block ;
+position: absolute;
+width: 33%;
+margin: 25px auto; */
+/* border: 2px solid red; */
+display: flex;
+text-align: center;
+justify-content:right ;
+}
+.right{
+    position: absolute;
+    top: 43px;
+    right: 34px;
+ display: inline-block;
+/* border: 2px solid black; */
+}
+.navbar{
+    display: inline-block;
+ /* float: right; */
+}
+.navbar li{
+    display:  inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: grey;
+    text-decoration: none; 
+    padding: 34px 15px; 
+}
+ .navbar li a:hover, .navbar li a.acitve{ 
+    /* text-decoration: underline; */
+    color: white;
+    padding: 34px 23px;
+     }
+     .left img{
+        width: 115px;
+        filter: invert(100%);
+     }
+     .left div{
+        text-align: center;
+     }
+     .btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey ;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+          }
+          /* .btn:hover{
+            background-color: gray;} */
+.container{
+         /* border: 2px solid white; */
+         margin: 200px 400px;
+         /* float: left; */
+         padding: 75px ;
+         width: 40%;
+         border-radius: 28px;
+
+            }
+ .formgrp input{
+    font-family: 'Roboto', cursive;
+    font-size: 15px ;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+ }
+ .container h1{
+    text-align: center;
+    color: grey;
+ }
+ .container  button{
+    display: block;
+    width: 96%;
+    margin: 20px auto ;
+ }
+ .gym{
+    color: grey;
+ }
+
+</style>
+ <body>
+     <header class="header">
+         <!-- left box for logo  -->
+        <div class="left">  
+      <img src="image/logo.png.png" alt="image not found">
+      <div class="gym">Bareilly CLUB GYM</div>
+         </div>
+         <!-- mid box for navbar -->
+        <div class="mid">  
+         <ul class="navbar">
+            <li><a href="index.html" class="active">Home</a> </li>
+        </ul>    
+        </div>
+            <!-- <li><a href="#">About Us </a> </li>
+            <li><a href="#">Fitness Calculator</a> </li>
+            <li><a href="#">Contact Us</a> </li>
+         right box for buttons
+     <div class="right">
+        <button class="btn">Call Us Now</button> 
+        <button class="btn">email Us</button> -->
+ <!-- </div> -->
+ </header> 
+
+ <div class="container">
+    <h1>Join the best gym of Bareilly now</h1>
+ 
+<form action="noaction.php">
+    <div class="formgrp">
+        <input type="text" name="" placeholder="enter your name" required>
+    </div>
+    <div class="formgrp">
+        <input type="text" name="" placeholder="enter your Gender" required>
+    </div>
+    <div class="formgrp">
+        <input type="text" name="" placeholder="enter your age" required>
+    </div>
+    <div class="formgrp">
+        <input type="text" name="" placeholder="enter your locality"
+        required>
+    </div>
+   
+    <button class="btn">Submit Us</button>
+</form>
+ </div>
+    
+</body>
+</html>

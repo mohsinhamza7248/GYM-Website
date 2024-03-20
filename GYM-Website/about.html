@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <link rel="stylesheet" href="CSS/index.css">
+    <style>
+        body{
+            display: block;
+            font-family: 'Roboto' , cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('image/gym5.jpg');
+}
+.container{
+    /* flex: auto; */
+    /* text-align: center;
+    display: block; */
+    width: 900px;
+            margin: 23px auto;
+}
+.lists{
+    display: block;
+    list-style-type: disc;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    padding-inline-start: 40px;
+    float: auto ; 
+    width: 900px;
+            margin: 23px auto;
+}
+.form {
+    font-family: 'Roboto', cursive;
+    font-size: 15px ;
+    text-align: center;
+    display: block;
+    width: 800px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+ }
+    /* width: 900px;
+            margin: 23px auto;
+            padding: 30px; */
+
+
+#btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey ;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        width: 200px;
+          }
+ /* #form{
+    font-family: 'Roboto', cursive;
+    font-size: 15px ;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+ } */
+ .active{
+ display: flex;
+text-align: center;
+justify-content:right ;
+color: grey;
+text-decoration: none;
+padding:0px 10px;
+margin: 0px 5px;
+}
+.active:hover{
+    color: white;
+}
+    </style>
+</head>
+<body>
+   <div id="mid">  
+  <a href="index.html" class="active">Home</a> 
+    </div>
+    <div class="container"> 
+     <h1 class="h-1">Welcome To Our Gym </h1>
+    <p class="para"> <h1>REAL GYM | REAL RESULTS</h1>
+        At THE GYM, we’re about real fitness. Our no-nonsense, results-driven culture was built on a history rooted in weightlifting culture. With our award-winning designs and culture, THE GYM has effortlessly became an internationally recognized brand known for its commitment to health, strength, and fitness. Today, we continue to be one of the most celebrated fitness brands in the world.
+        
+        Our team is heavily involved in our community and closely connected with local public services, outreach programs, and other local businesses. Our culture isn’t that of these corporate gyms. When you walk in the door you’re here to work, sweat, and burn. At THE GYM, great shape is an authentic passion, and we don’t back down from the challenge to push our bodies to levels constantly challenging our limits.
+        
+        Here at THE GYM you aren’t only joining a gym, you join a team of individuals who are committed to leading strong, fit, and healthy lifestyles. Our amazing trainers are ready to make sure you break boundaries and achieve your full potential. At THE GYM, our facilities ensure that you have full access to everything you need to reach that next level:</p>
+ </div>
+    <div class="lists">
+ <ul>
+<li>Largest free weight section in the High Desert.</li>
+<li>State of the art treadmills and ellipticals.</li>
+<li>Tanning beds</li>
+<li>Cycle studio</li>
+<li>Aerobic classes</li>
+<li>Steam rooms</li>
+<li> Personal Training</li>
+<li>Nutrition shop</li>
+<li>Status RX</li>
+<li>Saunas</li>
+</ul> 
+ </div>
+<div class="form">
+    <h1 class="h-2">WANT TO LEARN MORE ABOUT LICENSING OPPORTUNITIES?</h1>
+  <form action="noaction.php" >
+    <input type="text" name="" placeholder="Name*" required ><br>
+    <input type="email" name=""  placeholder="E-mail*" required ><br>
+    <input  name="" placeholder="Number*" required > <br>
+    <input type="text" name=""  placeholder="city/State of Franchise Location is required*" required><br>
+    <button type="submit" id="btn" >Submit</button>
+  </form>
+</div>
+    
+</body>
+</html>

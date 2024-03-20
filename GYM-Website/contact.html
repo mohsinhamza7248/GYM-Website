@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+</head>
+<style>
+    body{
+        font-family: 'Roboto' , cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('image/gym10.jpg');
+    /* background-repeat: no-repeat; */
+  }
+  .active{
+ display: flex;
+text-align: center;
+justify-content:right ;
+color: grey;
+text-decoration: none;
+padding:0px 10px;
+margin: 0px 5px;
+}
+.active:hover{
+    color: white;
+}
+#btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey ;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        width: 200px;
+          }
+</style>
+<body> 
+     <div id="mid">  
+    <a href="index.html" class="active">Home</a> 
+      </div>
+<h1>My Contact Details</h1>
+    <p>My fictional Address</p>
+    <p>+917248437226</p>
+    <p>mohsinhamza7248@gmail.com</p>
+    <form >
+        <!-- <label>Your Name </label> -->
+        <input type="text" name="YourName" id="" placeholder="Name*"><br>
+        <!-- <label>Your Email</label> -->
+        <input type="email" name="YourEmail" id="" placeholder="Email*"><br>
+        <!-- <label>Your MSG</label><br> -->
+       <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Text Here *"></textarea><br>
+        <!-- <input type="submit" name="" id=""><br> -->
+        <button type="submit" id="btn">Submit</button>
+    </form>
+</body>
+</html>
